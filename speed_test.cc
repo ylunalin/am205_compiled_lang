@@ -9,7 +9,7 @@ using namespace std;
 // And do the work for us (sometimes) to improve performance
 
 // Try compiling with optimization flag -O[...]
-// The options can be -O, -O1, -O2, -O3, -Ofast (a bit racy) 
+// The options can be -O, -O1, -O2, -O3, -Ofast (a bit racy)
 // Try the following, and compare with python np.dot
 // g++ -O3 -o test speed_test.cc
 int main() {
@@ -42,5 +42,4 @@ int main() {
     }
     t = clock() - t;
     printf("Matrix vector dot product of size %d, repeated %d times, took %8.7f seconds\n", N, S, (float)t/CLOCKS_PER_SEC);
-    
 }
