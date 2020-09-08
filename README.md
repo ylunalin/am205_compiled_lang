@@ -1,7 +1,7 @@
 # am205_compiled_lang
 Code examples for the compiled language workshop for AM205, Fall 2020
 
-If you are using cammandline, one way to compile the code is to use a C++ compiler such as GNU GCC/G++.
+If you are using commandline, one way to compile the code is to use a C++ compiler such as GNU GCC/G++.
 Installing the compiler would depend on your computer.
 Check out installation guides of the compiler you choose to use. If you need help, email us.
 
@@ -16,7 +16,7 @@ Run the executable by
 
 ./test
 
-The other way to use these codes is to use an online cmopiler, such as
+The other way to use these codes is to use an online compiler, such as
 
 onlinegdb.com
 
